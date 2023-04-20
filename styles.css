@@ -36,11 +36,12 @@ header{
     align-items: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 280px;
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
 }
 header img{
     margin-top: 30px;
+    width: 200px;
 }
 .header--title-container{
     /* display: flex;
@@ -65,8 +66,8 @@ header img{
 }
 .header--title-container .header--button{
     position: absolute;
-    top: 270px;
-    left: calc(50% - 118px);
+    top: 80%;
+    left: calc(50% - 115px);
     display: block;
     margin-top: 35px;
     padding: 15px;
