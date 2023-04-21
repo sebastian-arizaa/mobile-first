@@ -3,6 +3,26 @@ header img{
     width: 500px;
     height: 120px;
 }
+.main-tables-container--slider {
+    justify-content: center;
+    gap: 80px;
+    height: 360px;
+}
+.main-tables-container {
+    margin: 0px;
+}
+.main-tables-container--table {
+    grid-template-columns: 150px 149px;
+    grid-template-rows: 50px 50px 50px 50px;
+    width: 300px;
+}
+.main-tables-container--table span:nth-child(2n) {
+    gap: 20px;
+    padding-left: 20px;
+}
+.main-tables-container--vector {
+    display: none;
+}
 .main-product-detail {
     display: flex;
     flex-wrap: wrap;
